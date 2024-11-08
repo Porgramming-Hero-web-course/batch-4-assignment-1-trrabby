@@ -15,8 +15,8 @@ const calculateShapeArea = (obj: Circle | Rectangular): number => {
         return areaOfCircle
     }
     else if (obj.shape === 'rectangle') {
-        const areaOfrectangle = obj.height * obj.width
-        return areaOfrectangle
+        const areaOfRectangle = obj.height * obj.width
+        return areaOfRectangle
     }
     return 0
 }
